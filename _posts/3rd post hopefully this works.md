@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3rd post hopefully this works
+title: "3rd post hopefully this works"
 date: 2026-02-12
 ---
 
