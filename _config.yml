@@ -1,13 +1,11 @@
-title: Cyber Ceej
-   description: A place for me to think out loud about anything cyber
-   url: "https://Ceej-16.github.io"
-   baseurl: ""
-   
-   # Build settings
-   markdown: kramdown
-   theme: minima
-   
-   # Exclude from build
-   exclude:
-     - .obsidian/
-     - README.md
+title: "Ceej does Cyber"
+description: "A place to think out loud"
+url: "https://Ceej-16.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme: minima
+
+exclude:
+  - .obsidian/
+  - README.md
