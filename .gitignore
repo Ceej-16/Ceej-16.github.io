@@ -24,3 +24,6 @@ pnpm-debug.log*
 .obsidian/
 .trash/
 Templates/
+
+# README
+README.md
