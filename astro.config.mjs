@@ -10,10 +10,19 @@ export default defineConfig({
 			title: 'Ceej Cyber Lab',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Ceej-16' }],
 			sidebar: [
-  {
-    autogenerate: { directory: '.' },
-  },
-],
+				{
+					label: 'Blog',
+					autogenerate: { directory: 'blog' },
+				},
+				{
+					label: 'Guides',
+					autogenerate: { directory: 'guides' },
+				},
+				{
+					label: 'Reference',
+					autogenerate: { directory: 'reference' },
+				},
+			],
 		}),
 	],
 });
