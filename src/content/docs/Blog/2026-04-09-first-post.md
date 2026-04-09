@@ -1,5 +1,5 @@
 ---
-title: "First Post!"
+title: First Post!
 description: A guide for First Post!
 ---
 
