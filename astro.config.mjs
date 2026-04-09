@@ -12,7 +12,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Blog',
-					autogenerate: { directory: 'Blog' },
+					autogenerate: { directory: 'blog' },
 				},
 				{
 					label: 'Guides',
