@@ -4,9 +4,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://Ceej-16.github.io'
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Ceej Cyber Lab',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
