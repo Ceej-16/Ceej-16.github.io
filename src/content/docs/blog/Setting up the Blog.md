@@ -2,13 +2,19 @@
 title: Getting Started with Astro and Starlight
 description: Turns out setting up a docs site involves reading documentation...Who would've guessed?
 date: 2026-04-15
+tags:
+  - astro
+  - starlight
+  - github-pages
+  - obsidian
+  - setup
 ---
 
 ## Introduction
 
 The inspiration for this blog came from a sysadmin at a previous job: Stuff gets lost if it's not written down so why not have my own place to think out loud, document, and share?
 
-It seems appropriate that this first post is about how the setup process went for getting this site up and running. I leaned pretty heavily on Claude to get the repo set up and with how productive it was, I'll no doubt be doing more AI projects down the road. This was a really fun first project—the back and forth with code, troubleshooting, and getting to a working site was anything but the straightforward project I was hoping it'd be.
+It seems appropriate that this first post is about how the setup process went for getting this site up and running. I leaned pretty heavily on Claude to get the repo set up and with how productive it was, I'll no doubt be doing more AI projects down the road and maybe even trying to integrate Claude into obsidian–Some TikToks might have influenced me on that... But really, this was a really fun first project—the back and forth with code, troubleshooting, and getting to a working site was really engaging to me.
 
 ## Why Starlight?
 
@@ -62,4 +68,8 @@ Going into this, I think my expectations for AI-Assistance were a little high. F
 
 ## What's Next
 
-I was worried this blog project would turn Into a long writeup and I'm sure it's already there. In order to avoid the run on post, I'm going to make this a 3 parter. In the next post, I'll talk about my experience with Obsidian's Templater plugin—because manually writing frontmatter sounds about as fun as troubleshooting a printer (If you know, you know) and a finally a third post hoping to wrap up the start of this whole blog project.
+I was worried this blog project would turn Into a long writeup and I'm sure it's already there. In order to avoid the run on post, I'm going to make this a 3 parter. In the next post, I'll talk about my experience with Obsidian's Templater plugin—because manually writing frontmatter sounds about as fun as troubleshooting a printer (If you know, you know) and a finally a third post hoping to wrap it all up and look at what's next for Obsidian
+
+## Related
+
+- [Github Pages Setup Guide with Astro](/guides/github-pages-setup-guide-with-astro)
