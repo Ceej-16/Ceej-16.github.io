@@ -9,4 +9,5 @@ Building AI strength and conditioning assistant for workout programming
 Getting started with linux
 Pi-Hole and Ublock origin helpful
 RSS feed setup
-Obsidian uses outside of blog
+Obsidian uses outside of blog plus 2nd brain
+
