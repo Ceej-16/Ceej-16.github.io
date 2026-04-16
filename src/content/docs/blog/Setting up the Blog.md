@@ -26,29 +26,29 @@ I don't consider myself a writer, but this is a fun way to flex those muscles al
 
 Downloaded Node.js from the official site and ran the installer with default settings. Everything seemed fine until I tried running `npm --version` in Command Prompt and got a PowerShell security error instead.
 
-![[Node_PS_version.png]]
+![Powershell](images/Node_PS_version.png)
 *The confusing error message that sent me down the wrong path.*
 
 Turns out the error message was misleading - it was actually trying to run a PowerShell script when I thought I was in CMD. Switched to actual Command Prompt (not PowerShell) and npm worked fine.
 
-![[Node_CMD_version.png]]
+![CMD](images/Node_CMD_version.png)
 *Facepalm - npm working correctly in actual Command Prompt.*
 
 I forgot a while ago I set windows 11 to use PS as the default terminal instead of CMD...
 
 ### Getting the Project Running
 Ran `npm create astro@latest` and got prompted with questions about templates and TypeScript strictness that didn't make any sense to me but just clicked through and chose the Starlight template, watched the installation run, and ended up with a folder full of unfamiliar files. Running `npm run dev` for the first time and seeing my website at `http://localhost:4321/` 
-![[NPM_Run_Dev.png]]
+![NPM Run](images/NPM_Run_Dev.png)
 *Success!*
 
-![[Starlight_default_homepage.png]]
+![Homepage](images/Starlight_default_homepage.png)
 *Proof of an actual blog*
 
 
 ### Deploy Success... But 404?
 
 Claude was super helpful in creating the workflow yaml file for github actions even calling me out for missing a comma in one line of the config causing the 404 and a failed deployment.
-![[Comma_failed_deployment.png]]
+![Failed Deploy](images/Comma_failed_deployment.png)
 *The amount of headache that a single comma caused me...*
 
 ### The Sidebar That Wouldn't Populate
