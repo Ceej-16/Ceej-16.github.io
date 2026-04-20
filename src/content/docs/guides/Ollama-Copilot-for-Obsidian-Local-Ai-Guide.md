@@ -203,4 +203,4 @@ If `@vault` queries return generic responses that don't reference your notes, re
 
 ## Related
 
-- [Connecting Your Obsidian Vault to a Local AI with MCPVault](/guides/McpVault-with-LMStudio-Guide.md)
+- [Connecting Your Obsidian Vault to a Local AI with MCPVault](/guides/mcpvault-with-lmstudio-guide)
