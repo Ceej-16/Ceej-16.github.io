@@ -376,4 +376,4 @@ Once everything is set up, your workflow for adding new documentation is:
 
 ## Related
 
-- [Setting up the Blog](src/content/docs/blog/Setting-up-the-Blog.md)
+[Getting Started with Astro and Starlight](/blog/setting-up-the-blog/)

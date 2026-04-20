@@ -244,4 +244,4 @@ Your model has a broken prompt template for this version of LM Studio. Look for 
 
 ## Related
 
-- [Setting Up Ollama with Obsidian Copilot](src/content/docs/guides/Ollama-Copilot-for-Obsidian-Local-Ai-Guide.md)
+[Setting Up Ollama with Obsidian Copilot](/guides/ollama-copilot-for-obsidian-local-ai-guide/)
