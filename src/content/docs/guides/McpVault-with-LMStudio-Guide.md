@@ -216,7 +216,7 @@ Once everything is set up, a session looks like this:
 
 > 💡 Keep Obsidian open while you work. Watching the files update as the model writes to them is both satisfying and a useful sanity check.
 
-The model starts fresh every session with no memory of your vault structure. In some brief use with plugins such as `copilot for obsidian` I know there are ways to include something resembling persistent memory with an index but I'll cover those in a follow-up once I've actually kicked the tires on them enough. 
+The model starts fresh every session with no memory of your vault structure. In some brief use with plugins such as [Copilot for Obsidian](/guides/ollama-copilot-for-obsidian-local-ai-guide/) I know there are ways to include something resembling persistent memory with an index but I'll cover those in a follow-up once I've actually kicked the tires on them enough. 
 
 ---
 
@@ -245,3 +245,7 @@ Your model has a broken prompt template for this version of LM Studio. Look for 
 ## Related
 
 [Setting Up Ollama with Obsidian Copilot](/guides/ollama-copilot-for-obsidian-local-ai-guide/)
+
+**Getting started with the blog setup:**
+- [Getting Started with Astro and Starlight](/blog/setting-up-the-blog/)
+- [GitHub Pages Setup Guide with Astro](/guides/github-pages-setup-guide-with-astro/)

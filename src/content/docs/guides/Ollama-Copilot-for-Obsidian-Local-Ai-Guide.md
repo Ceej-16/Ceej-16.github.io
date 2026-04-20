@@ -164,24 +164,11 @@ If this returns meaningful results that reference your actual notes, the full pi
 
 Once everything is set up, Ollama runs in the background automatically so you don't need to think about it. Open Obsidian, open the Copilot panel, and start asking questions. Use `@vault` when you want it to search your notes and leave it off when you just want general chat.
 
-LM Studio and Ollama will conflict over GPU access if both are running at the same time — if you use LM Studio for other things, make sure it's closed before expecting Ollama to use your GPU.
+LM Studio and Ollama will conflict over GPU access if both are running at the same time — if you use [LM Studio for MCPVault](/guides/mcpvault-with-lmstudio-guide/) or other things, make sure it's closed before opening Ollama.
 
 ---
 
 ## Troubleshooting
-
-### GPU not being used
-
-If you have an AMD GPU and Ollama is running on CPU only, set this environment variable in Windows:
-
-- Variable name: `HSA_OVERRIDE_GFX_VERSION`
-- Variable value: `10.3.0`
-
-Set it via **Start Menu → Edit system environment variables → New**, then restart Ollama.
-
-### Another app is holding the GPU
-
-If GPU usage is low during inference, check that LM Studio or any other AI app isn't running in the background. Close it and test again — two applications sharing GPU memory will both underperform.
 
 ### Copilot not finding vault content
 
@@ -197,10 +184,13 @@ If `@vault` queries return generic responses that don't reference your notes, re
 | Chat model | `qwen3:14b` |
 | Embedding model | `nomic-embed-text` |
 | Vault search prefix | `@vault` |
-| AMD GPU override variable | `HSA_OVERRIDE_GFX_VERSION = 10.3.0` |
 
 ---
 
 ## Related
 
 [Connecting Your Obsidian Vault to a Local AI with MCPVault](/guides/mcpvault-with-lmstudio-guide/)
+
+**Getting started with the blog setup:**
+- [Getting Started with Astro and Starlight](/blog/setting-up-the-blog/)
+- [GitHub Pages Setup Guide with Astro](/guides/github-pages-setup-guide-with-astro/)

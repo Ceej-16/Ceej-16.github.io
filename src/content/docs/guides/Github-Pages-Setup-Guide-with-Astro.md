@@ -326,7 +326,7 @@ git push -u origin main
 
 GitHub will prompt you to authenticate via a browser window. Once pushed, the GitHub Actions workflow will trigger automatically.
 
-The community plugin Git is also worth looking into if like me, you don't want to open a separate CMD to commit and push every time. The plugin let's you set a ton of customizations within obsidian to handle one button commit and sync as well as timed backups if that's more your style.
+The community plugin Git is also worth looking into if like me, you don't want to open a separate CMD to commit and push every time. The plugin let's you set a ton of customizations within obsidian to handle one button commit and sync as well as timed backups if that's more your style. Once your site is up and running, you might also want to look at [connecting your vault to a local AI](/guides/mcpvault-with-lmstudio-guide/) to help with writing and organizing your docs.
 
 My process looks like this assuming your first commit was from CMD:
 
@@ -377,3 +377,7 @@ Once everything is set up, your workflow for adding new documentation is:
 ## Related
 
 [Getting Started with Astro and Starlight](/blog/setting-up-the-blog/)
+
+**More AI and Obsidian tools:**
+- [Connecting Your Obsidian Vault to a Local AI with MCPVault](/guides/mcpvault-with-lmstudio-guide/)
+- [Setting Up Ollama with Obsidian Copilot](/guides/ollama-copilot-for-obsidian-local-ai-guide/)

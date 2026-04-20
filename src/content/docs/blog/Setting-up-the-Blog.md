@@ -14,7 +14,7 @@ tags:
 
 The inspiration for this blog came from a sysadmin at a previous job: Stuff gets lost if it's not written down so why not have my own place to think out loud, document, and share?
 
-It seems appropriate that this first post is about how the setup process went for getting this site up and running. I leaned pretty heavily on Claude to get the repo set up and with how productive it was, I'll no doubt be doing more AI projects down the road and maybe even trying to integrate Claude into obsidian–Some TikToks might have influenced me on that... But really, this was a really fun first project—the back and forth with code, troubleshooting, and getting to a working site was really engaging to me.
+It seems appropriate that this first post is about how the setup process went for getting this site up and running. I leaned pretty heavily on Claude to get the repo set up and with how productive it was, I'll no doubt be doing more AI projects down the road and maybe even trying to [integrate Claude into Obsidian](/guides/mcpvault-with-lmstudio-guide/)–Some TikToks might have influenced me on that... But really, this was a really fun first project—the back and forth with code, troubleshooting, and getting to a working site was really engaging to me.
 
 ## Why Starlight?
 
@@ -73,3 +73,7 @@ I was worried this blog project would turn Into a long writeup and I'm sure it's
 ## Related
 
 [GitHub Pages Setup Guide with Astro](/guides/github-pages-setup-guide-with-astro/)
+
+**Going further with AI and Obsidian:**
+- [Connecting Your Obsidian Vault to a Local AI with MCPVault](/guides/mcpvault-with-lmstudio-guide/)
+- [Setting Up Ollama with Obsidian Copilot](/guides/ollama-copilot-for-obsidian-local-ai-guide/)
