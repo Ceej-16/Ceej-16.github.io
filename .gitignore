@@ -25,3 +25,12 @@ pnpm-debug.log*
 .trash/
 Templates/
 Meta/
+
+
+#Copilot Chat
+copilot/
+
+# Ignore Smart Environment folder
+.smart-env
+
+.vscode
