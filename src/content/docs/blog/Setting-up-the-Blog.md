@@ -72,4 +72,4 @@ I was worried this blog project would turn Into a long writeup and I'm sure it's
 
 ## Related
 
-- [GitHub Pages Setup Guide with Astro](/guides/github-pages-setup-guide-with-astro)
+- [GitHub Pages Setup Guide with Astro](src/content/docs/guides/Github-Pages-Setup-Guide-With-Astro.md)
